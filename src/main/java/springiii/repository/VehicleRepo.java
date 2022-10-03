@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Repository
 public class VehicleRepo {
@@ -37,5 +38,11 @@ public class VehicleRepo {
         }
 
         return Optional.empty();
+    }
+
+    public List<Vehicle> getForPrice(double since, double to) {
+        return vehicleList.stream()
+                .filter(vehicle -> vehicle.getPrice() >= since && vehicle.getPrice() <= to)
+                .collect(Collectors.toList());
     }
 }

@@ -35,7 +35,7 @@ public class VehicleService implements IVehicleService {
 
     @Override
     public List<Vehicle> getForPrice(double since, double to) {
-        return null;
+        return repo.getForPrice(since, to);
     }
 
     @Override
