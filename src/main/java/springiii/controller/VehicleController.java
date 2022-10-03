@@ -30,4 +30,9 @@ public class VehicleController {
     public ResponseEntity<List<Vehicle>> getForPrice(@RequestParam  double since,  @RequestParam double to) {
         return new ResponseEntity<>(service.getForPrice(since, to), HttpStatus.OK);
     }
+
+    @PostMapping
+    public ResponseEntity<Vehicle> create(@RequestBody Vehicle vehicle) {
+        return new ResponseEntity<>(service.create(vehicle), HttpStatus.CREATED);
+    }
 }

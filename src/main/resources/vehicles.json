@@ -1,38 +1,46 @@
-[
-  {
-    "brand": "Chevrolet",
-    "model": "Corsa",
-    "manufacturingDate": "2000-11-20",
-    "numberOfKilometers": 115000,
-    "doors": 5,
-    "price": 90000,
-    "currency": "AR",
-    "board": "MVX-7579",
-    "services": [
-      {
-        "date": "2003-05-20",
-        "kilometers": 60000,
-        "descriptions": "Change air filters"
-      }
-    ],
-    "countOfOwners": 2
-  },
-  {
-    "brand": "Volkswagen",
-    "model": "Polo",
-    "manufacturingDate": "2005-05-18",
-    "numberOfKilometers": 7000,
-    "doors": 4,
-    "price": 83000,
-    "currency": "AR",
-    "board": "ABC-1111",
-    "services": [
-      {
-        "date": "2008-05-20",
-        "kilometers": 23500,
-        "descriptions": "Change air filters"
-      }
-    ],
-    "countOfOwners": 1
-  }
-]
+[ {
+  "brand" : "Chevrolet",
+  "model" : "Corsa",
+  "currency" : "AR",
+  "manufacturingDate" : "2000-11-20",
+  "board" : "MVX-7579",
+  "numberOfKilometers" : 115000,
+  "doors" : 5,
+  "countOfOwners" : 2,
+  "price" : 90000.0,
+  "services" : [ {
+    "date" : "2003-05-20",
+    "descriptions" : "Change air filters",
+    "kilometers" : 60000
+  } ]
+}, {
+  "brand" : "Volkswagen",
+  "model" : "Polo",
+  "currency" : "AR",
+  "manufacturingDate" : "2005-05-18",
+  "board" : "ABC-1111",
+  "numberOfKilometers" : 7000,
+  "doors" : 4,
+  "countOfOwners" : 1,
+  "price" : 83000.0,
+  "services" : [ {
+    "date" : "2008-05-20",
+    "descriptions" : "Change air filters",
+    "kilometers" : 23500
+  } ]
+}, {
+  "brand" : "Chevrolet",
+  "model" : "Camaro",
+  "currency" : "AR",
+  "manufacturingDate" : "2017-11-20",
+  "board" : "AAA-1234",
+  "numberOfKilometers" : 100,
+  "doors" : 2,
+  "countOfOwners" : 1,
+  "price" : 570000.0,
+  "services" : [ {
+    "date" : "2003-05-20",
+    "descriptions" : "Change air filters",
+    "kilometers" : 50
+  } ]
+} ]

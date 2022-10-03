@@ -45,6 +45,6 @@ public class VehicleService implements IVehicleService {
 
     @Override
     public Vehicle create(Vehicle vehicle) {
-        return null;
+        return repo.create(vehicle);
     }
 }
